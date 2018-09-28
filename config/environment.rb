@@ -6,8 +6,8 @@ require 'whenever/capistrano'
 Rails.application.initialize!
 
 ActionMailer::Base.smtp_settings = {
-  :user_name => 'piyush8',
-  :password => 'jalaram4050',
+  :user_name => 'XXXXXXX',
+  :password => 'XXXXXXX',
   :domain => 'localhost',
   :address => 'smtp.sendgrid.net',
   :port => 587,

@@ -10,8 +10,6 @@ set :environment, "development"
 set :output,  "/Users/apple/Developer/task/news"
 
 every 16.hours do
-  command "/usr/bin/some_great_command"
-  runner "MyModel.some_method"
   rake "some:great:rake:task"
 end
 
@@ -24,7 +22,7 @@ every :day, at: '9pm' do
   rake 'create'
   rake "some:great:rake:create"
   runner "my:rake:create"
-  runner "user.create"
+  runner "User.create"
 end
 
 
